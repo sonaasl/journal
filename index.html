@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiments</title>
+    <link rel="icon" type="image/png" href="assets/favic.png" />
+
+</head>
+<body>
+    <header><h1>Header</h1></header>
+    <main>
+        <p>this is main content</p>
+        <h2>images</h2>
+        <figure>
+            <img src="assets/bruiser-2000.jpg" alt="man with white mask"
+            width="400">
+            <img id="maskman" src="assets/bruiser-2000.jpg" alt="" width="50%"/>
+            <figcaption>caption from bruiser</figcaption>
+        </figure>
+        <h2>links</h2>
+        <p id="links">
+            <a href="https://www.youtube.com/watch?v=9GMYPOdd7to">the course i'm taking</a>
+            *
+            <a href=".">same purposeless local page</a>
+            *
+            <a href="another.html">another</a>
+            <br>
+            <a href="."><img src="assets/favic.png" alt="ice"/></a>
+            <br>
+            <a href="#maskman">masked man</a>
+        </p>
+        <h2>multimedia</h2>
+        <h3>video</h3>
+        <video src="assets/fly.MP4" height="400" 
+        autoplay controls loop >genocide vs fly</video>
+        <h3>audio</h3>
+        <audio src="assets/sampletrack.mp3" controls></audio>
+        <audio src="assets/sampletrack.mp3#t=00:07" controls>audio area
+        </audio>
+        <h2>tables</h2>
+        <table border="100">
+            <caption>this is a table, cA nyOu beLieVeIT?</caption>
+            <tr>
+                <th>column 1</th>
+                <th>column 2</th>
+            </tr>
+            <tr>
+                <td>cell 1 row 1</td>
+                <td>cell 2 row 2</td>
+            </tr>
+            <tr>
+                <td>cell 1 row 2</td>
+                <td rowspan="2">cell 2 rows 2 & 3</td>
+            </tr>
+            <tr>
+                <td>cell 1 row 3</td>
+            </tr>
+            <tr>
+                <td>cell 1 row 4</td>
+                <td>cell 2 row 4</td>
+            </tr>
+            <tr>
+                <td colspan="2">cell 1 & 2 row 5</td>
+            </tr>
+        </table>
+        <br> <br>
+        <h2>inseption magic</h2>
+        <p>it's not magic, it's iframe: <code>&lt;iframe src="." width="600" height="600">&lt;/iframe></code></p>
+        <iframe src="." width="600" height="600"></iframe>
+
+
+
+
+        <br><br><br><br><br><br><hr>
+    </main>
+    <footer>
+        <p>this is gonna be the footer</p>
+        <p>Pages: 
+            <a href=".">1</a> 
+            <a href="another.html">2</a>
+        </p>
+    </footer>
+</body>
+</html>
